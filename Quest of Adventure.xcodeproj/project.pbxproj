@@ -101,14 +101,13 @@
 		BBE3C5AD280CFC18001035F3 /* Quest of Adventure */ = {
 			isa = PBXGroup;
 			children = (
+				BBE3C5E1280CFCB4001035F3 /* Model */,
+				BBE3C5E2280CFCB9001035F3 /* View */,
+				BBE3C5E3280CFCBE001035F3 /* Controller */,
 				BBE3C5AE280CFC18001035F3 /* AppDelegate.swift */,
 				BBE3C5B0280CFC18001035F3 /* SceneDelegate.swift */,
-				BBE3C5B2280CFC18001035F3 /* ViewController.swift */,
-				BBE3C5B4280CFC18001035F3 /* Main.storyboard */,
 				BBE3C5BA280CFC1A001035F3 /* Assets.xcassets */,
-				BBE3C5BC280CFC1A001035F3 /* LaunchScreen.storyboard */,
 				BBE3C5BF280CFC1A001035F3 /* Info.plist */,
-				BBE3C5B7280CFC18001035F3 /* Quest_of_Adventure.xcdatamodeld */,
 			);
 			path = "Quest of Adventure";
 			sourceTree = "<group>";
@@ -128,6 +127,31 @@
 				BBE3C5D4280CFC1B001035F3 /* Quest_of_AdventureUITestsLaunchTests.swift */,
 			);
 			path = "Quest of AdventureUITests";
+			sourceTree = "<group>";
+		};
+		BBE3C5E1280CFCB4001035F3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BBE3C5B7280CFC18001035F3 /* Quest_of_Adventure.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BBE3C5E2280CFCB9001035F3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BBE3C5BC280CFC1A001035F3 /* LaunchScreen.storyboard */,
+				BBE3C5B4280CFC18001035F3 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BBE3C5E3280CFCBE001035F3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BBE3C5B2280CFC18001035F3 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -449,6 +473,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -477,6 +502,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
